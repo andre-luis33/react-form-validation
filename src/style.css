@@ -1,0 +1,19 @@
+.alert {
+   height: 0px;
+   opacity: 0;
+
+   margin-bottom: 0;
+   padding: 0;
+
+   overflow: hidden;
+
+   transition: .2s all;
+}
+
+.alert.show {
+   height: 50px;
+   opacity: 1;
+
+   padding: .75rem 1.25rem;
+   margin-bottom: 1rem;
+}
